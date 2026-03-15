@@ -1,0 +1,28 @@
+{
+  "name": "ecommerce-inngest",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^7.0.4",
+    "inngest": "^3.52.6",
+    "mongoose": "^9.3.0",
+    "next": "^16.1.6",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-hot-toast": "^2.6.0",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "eslint": "^10",
+    "eslint-config-next": "16.1.6",
+    "postcss": "^8",
+    "tailwindcss": "^4.2.1"
+  }
+}

@@ -14,6 +14,7 @@ const OrderSummary = () => {
     cartItems,
     setCartItems,
   } = useAppContext();
+  
   const [selectedAddress, setSelectedAddress] = useState(null);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
